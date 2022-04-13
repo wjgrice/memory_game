@@ -1,0 +1,64 @@
+* {
+  /* border: 1px solid red; */
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(12, 22, 160);
+  font-weight: bold;
+}
+
+.header {
+  min-height: 250px;
+}
+ body {
+   background-image: url('images/background.png');
+   background-size: 100vw 100vh;
+ }
+
+.tile {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 20px;
+  border: solid black 3px;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+}
+
+
+.entire-game {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.title {
+  margin-left: 1.5%;
+  display: inline-block;
+}
+
+.score {
+  margin-left: 31%;
+  display: inline-block;
+}
+
+.hi-score {
+  margin-left: 28%;
+  display: inline-block;
+}
+
+.startbtn {
+  border: solid black 3px;
+  border-radius: 15px;
+  align-content: center;
+  padding: 5px;
+  transition: all .2s ease-in-out;
+  background-color: rgba(94, 86, 85, 0.45);
+}
+
+.tile:hover,
+.startbtn:hover {
+  transform: scale(1.1); 
+}
