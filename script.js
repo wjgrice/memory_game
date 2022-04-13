@@ -33,7 +33,7 @@ const COLORS = [
   "purple"
 ];
 
-// here is a helper function to shuffle an array
+// Helper function to shuffle an array
 // it returns the same array with values shuffled
 // it is based on an algorithm called Fisher Yates if you want ot research more
 function shuffle(array) {
@@ -58,7 +58,7 @@ function shuffle(array) {
 
 let shuffledColors = shuffle(COLORS);
 
-// this function loops over the array of colors
+// Loops over the array of colors
 // it creates a new div and gives it a class with the value of the color
 // it also adds an event listener for a click for each card
 function createDivsForColors(colorArray) {
